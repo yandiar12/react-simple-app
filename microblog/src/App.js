@@ -8,9 +8,9 @@ import NotFound from './NotFound';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App font-body">
         <Navbar />
-        <div className="content">
+        <div className="max-w-2xl m-auto p-5">
           <Switch>
             <Route exact path="/">
               <Home />
