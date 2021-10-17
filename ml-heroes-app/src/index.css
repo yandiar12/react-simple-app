@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Futura', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #11151c;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #555b6e;
+}
+.navbar a:hover {
+  color: #11151c;
+}
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.heroes-card {
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.heroes-card:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.heroes-details {
+  color: #364156;
+}
