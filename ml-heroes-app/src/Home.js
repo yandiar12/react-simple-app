@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
-import { HeroesContext } from './contexts/HeroesContext'
+import { HeroesContext } from './contexts/HeroesContext';
 
 const Home = () => {
   const { heroes } = useContext(HeroesContext);
-  
+
   return (
     <div className='heroes-list'>
       {heroes.map(hero => {
