@@ -4,6 +4,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* navbar */
 .navbar {
   padding: 10px;
   display: flex;
@@ -24,6 +26,8 @@ body {
 .navbar a:hover {
   color: #22223b;
 }
+
+/* content and card */
 .content {
   max-width: 800px;
   margin: 20px auto;
@@ -37,6 +41,8 @@ body {
 .heroes-card:hover {
   box-shadow: 1px 3px 5px #aeb8fe;
 }
+
+/* heroes details */
 .heroes-details {
   color: #4a4e69;
 }
@@ -45,4 +51,44 @@ body {
 }
 .heroes-list a {
   text-decoration: none;
+}
+.action {
+  display: flex;
+  column-gap: 5px;
+}
+
+/* Form */
+.form-group {
+  padding: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* buttons */
+button {
+  width: 120px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #3d5a80;
+}
+.btn-primary:hover {
+  background-color: #22223b;
+}
+.btn-secondary {
+  background-color: #ee6c4d;
+}
+.btn-secondary:hover {
+  background-color: #e71d36;
 }
