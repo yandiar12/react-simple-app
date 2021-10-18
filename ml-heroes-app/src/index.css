@@ -43,3 +43,6 @@ body {
 .heroes-details h3 {
   color: #22223b;
 }
+.heroes-list a {
+  text-decoration: none;
+}

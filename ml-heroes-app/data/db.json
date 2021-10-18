@@ -1,0 +1,19 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Alucard",
+      "role": "Fighter"
+    },
+    {
+      "id": 2,
+      "name": "Karina",
+      "role": "Assassin"
+    },
+    {
+      "id": 3,
+      "name": "Gord",
+      "role": "Mage"
+    }
+  ]
+}
