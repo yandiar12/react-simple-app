@@ -3,7 +3,7 @@ body {
   font-family: 'Futura', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e9ecef;
+  background-color: #f8f9fa;
 }
 
 /* navbar */
@@ -14,7 +14,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   border-bottom: 1px solid #ced4da;
-  background-color: #f8f9fa;
+  background-color: #fff;
 }
 .navbar h1 {
   color: #3d405b;
@@ -39,12 +39,14 @@ body {
 .heroes-card {
   padding: 10px 15px;
   margin: 10px 0;
-  background-color: #e9ecef;
+  background-color: #fff;
   color: #012a4a;
-  /* border: 1px solid #ced4da; */
+  border: 1px solid #d3d3d3;
+  box-shadow: 1px 1px #d3d3d3;
+  border-radius: 10px;
 }
 .heroes-card:hover {
-  background-color: #dee2e6;
+  background-color: #f5f3f4;
 }
 
 /* heroes details */
@@ -61,7 +63,9 @@ body {
   display: block;
   padding: 10px 20px;
   background-color: #e8e8e4;
-  border: 5px solid #d8e2dc;
+  border: 1px solid #d8e2dc;
+  border-radius: 5px;
+  box-shadow: 2px 2px #d8e2dc;
 }
 .action {
   display: flex;
