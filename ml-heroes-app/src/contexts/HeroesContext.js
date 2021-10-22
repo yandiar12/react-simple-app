@@ -5,9 +5,9 @@ export const HeroesContext = createContext()
 
 const HeroesContextProvider = props => {
   const [heroes, setHeroes] = useState([
-    { name: 'Alucard', role: 'Fighter', id: 1 },
-    { name: 'Karina', role: 'Assassin', id: 2 },
-    { name: 'Gord', role: 'Mage', id: 3 }
+    { name: 'Alucard', role: 'Fighter', id: "1" },
+    { name: 'Karina', role: 'Assassin', id: "2" },
+    { name: 'Gord', role: 'Mage', id: "3" }
   ])
   const addHeroes = (name, role) => {
     setHeroes([...heroes, { name, role, id: uuidv4() }])

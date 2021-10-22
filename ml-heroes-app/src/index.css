@@ -3,19 +3,21 @@ body {
   font-family: 'Futura', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecef;
 }
 
 /* navbar */
 .navbar {
-  padding: 10px;
+  padding: 20px;
   display: flex;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
   border-bottom: 1px solid #ced4da;
+  background-color: #f8f9fa;
 }
 .navbar h1 {
-  color: #22223b;
+  color: #3d405b;
 }
 .navbar a {
   margin-left: 16px;
@@ -30,25 +32,22 @@ body {
 /* content and card */
 .content {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0px auto;
   padding: 20px;
+  background-color: #f8f9fa;
 }
 .heroes-card {
   padding: 10px 15px;
   margin: 10px 0;
-  border: 1px solid #ced4da;
+  background-color: #e9ecef;
+  color: #012a4a;
+  /* border: 1px solid #ced4da; */
 }
 .heroes-card:hover {
-  box-shadow: 1px 3px 5px #aeb8fe;
+  background-color: #dee2e6;
 }
 
 /* heroes details */
-.heroes-details {
-  color: #4a4e69;
-}
-.heroes-details h3 {
-  color: #1a535c;
-}
 .heroes-list a {
   text-decoration: none;
 }
@@ -78,7 +77,8 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  background-color: #e9ecef;
+  border: 1px solid #e9ecef;
   box-sizing: border-box;
 }
 

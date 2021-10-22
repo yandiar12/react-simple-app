@@ -14,7 +14,7 @@ const HeroesDetiails = () => {
   
   return (
     <div>
-      { heroes.filter(hero => hero.id == id).map(filteredHero => (
+      { heroes.filter(hero => hero.id === id).map(filteredHero => (
         <div key={id} className="heroes-preview">
           <h1>{ filteredHero.name }</h1>
           <p>Role: { filteredHero.role }</p>
